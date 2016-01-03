@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BuaNews</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bua_news">北农新闻</string>
+    <string name="bua_media">媒体北农</string>
+    <string name="notice_announcement">通知公告</string>
+</resources>

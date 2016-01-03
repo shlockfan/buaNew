@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.codetail.widget.RevealFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TabWidget
+                android:id="@+id/main_fragment_tabWidget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:gravity="center" >
+                <Button
+                    android:id="@+id/bua_news_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:textColor="@drawable/tab_button_selector"
+                    android:text="@string/bua_news"/>
+
+                <Button
+                    android:id="@+id/bua_media_bt"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="@string/bua_media"
+                    android:textColor="@drawable/tab_button_selector" />
+
+                <Button
+                    android:id="@+id/bua_notice_bt"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/notice_announcement"
+                    android:textColor="@drawable/tab_button_selector" />
+            </TabWidget>
+
+            <ImageView
+                android:id="@+id/tab_line_iv"
+                android:layout_width="200dp"
+                android:layout_height="4dp"
+                android:contentDescription="tab"
+                android:background="@color/colorPrimaryDark" >
+            </ImageView>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/main_fragment_vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/gray_2"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</io.codetail.widget.RevealFrameLayout>

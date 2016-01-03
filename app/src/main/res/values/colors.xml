@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue">#303F9F</color>
+
+    <color name="accent_color">#00e676</color>
+    <color name="colorPrimary">#8bc34a</color>
+    <color name="colorPrimaryDark">#689f38</color>
+    <color name="statusBarColor">@color/blue</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="gray">#938192</color>
+    <color name="gray_1">#898989</color>
+    <color name="gray_2">#E4E4E4</color>
+
+    <color name="theme_color">#ffffff</color>
+
+    <color name="window_background">#FFF5F5F5</color>
+
+    <color name="beatingcolor_green">#2cac38</color>
+    <color name="beatingcolor_yellow">#fec200</color>
+    <color name="beatingcolor_blue">#5677fc</color>
+    <color name="beatingcolor_red">#eb2b66</color>
+    <color name="beatingcolor_gray">#dfdfdf</color>
+
+    <color name="material_light_green">#FF8BC34A</color>
+
+    <integer-array name="beatingcolor_colors">
+        <item>@color/beatingcolor_green</item>
+        <item>@color/beatingcolor_yellow</item>
+        <item>@color/beatingcolor_blue</item>
+        <item>@color/beatingcolor_red</item>
+    </integer-array>
+</resources>
+
