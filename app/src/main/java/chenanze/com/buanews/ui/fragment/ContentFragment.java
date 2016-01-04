@@ -39,7 +39,7 @@ public class ContentFragment extends BaseFragment {
     private int currentIndex;
 
 
-    private View containerView;
+    private static View containerView = null;
     protected ImageView mImageView;
     protected int res;
     private Bitmap bitmap;
@@ -69,7 +69,7 @@ public class ContentFragment extends BaseFragment {
      * @param view
      */
     private void setView(View view) {
-        this.containerView = view.findViewById(R.id.container);
+        containerView = view.findViewById(R.id.container);
         mBtnTabs[0] = (Button) view.findViewById(R.id.bua_news_bt);
         mBtnTabs[1] = (Button) view.findViewById(R.id.bua_media_bt);
         mBtnTabs[2] = (Button) view.findViewById(R.id.bua_notice_bt);
